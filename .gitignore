@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/  # Виртуальное окружение
+bin/
+include/
+lib/
+local/
+
+# Django specific
+*.sqlite3 # Исключаем файл SQLite базы данных
+db.sqlite3 # Явно исключаем, если имя фиксировано
+/media/
+/static/
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Frontend (если будете использовать в будущем или временно)
+node_modules/
+build/
+.env
